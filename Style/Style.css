@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
+body{
+    margin: 0px;
+    background-color: rgb(255, 249, 241);
+}
+header{
+    background-color: #efe9e6;
+    height: 150px;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+header nav a{
+    text-decoration: none;
+    color: brown;
+    height: 50px;
+    width: 100px;
+    border-radius: 25%;
+}
+nav button{
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+    background-color:#efe9e6;
+    border: #efe9e6;
+}
+nav img{
+    height: 150px;
+    width: 200px;
+}
+h1{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+.Cards{
+    display: flex;
+    justify-content: center;
+}
+.Card1{
+    display: flex;
+    margin-left: 32%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(247, 233, 194);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    
+}
+.Card1 button{
+    display: block;
+    align-items: center;
+    border-radius: 20px;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    margin: 25px;
+    border-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.Card1 img{
+    display: flex;
+    height: 250px;
+    width: 450px;
+    border-right: 35%;
+    align-items: center;
+    margin-right: 45%;
+    margin-left: 10%;
+}
+.Card1 a{
+    text-decoration: none;
+    color: brown;
+}
+.Card1:hover{
+    background-color: rgb(238, 225, 200);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.10);
+}
+.Card2{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border: 20px;
+    overflow: hidden;
+    font-family: "Roboto Slab", serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.Card2 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.Card2 h1{
+    color: lightblue;
+    text-align: center;
+
+}
+
+.Card2:hover{
+    background-color: rgb(238, 225, 200);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.10);
+}
+.Card3{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border: 20px;
+    overflow: hidden;
+    font-family: "Roboto Slab", serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.Card3 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.Card3 h1{
+    color: lightblue;
+    text-align: center;
+
+}
+
+.Card3:hover{
+    background-color: rgb(238, 225, 200);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.10);
+}
+.Card4{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border: 20px;
+    overflow: hidden;
+    font-family: "Roboto Slab", serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.Card4 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.Card4 h1{
+    color: lightblue;
+    text-align: center;
+
+}
+
+.Card4:hover{
+    background-color: rgb(238, 225, 200);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.10);
+}
+.Card5{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border: 20px;
+    overflow: hidden;
+    font-family: "Roboto Slab", serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.Card5 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.Card5 h1{
+    color: lightblue;
+    text-align: center;
+
+}
+
+.Card5:hover{
+    background-color: rgb(238, 225, 200);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.10);
+}
