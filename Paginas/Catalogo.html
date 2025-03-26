@@ -1,23 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo - Sparkle Studio</title>
     <link rel="stylesheet" href="../Style/Style.css">
     <link rel="shortcut icon" href="../Imagenes/logo.PNG" type="image/x-icon">
-    <title>Sparkle Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
 </head>
-<header>
-        <nav>
-            <img src="../Imagenes/logo.PNG" alt="">
-            <button><a href="Index.html">Inicio</a></button>
-            <button><a href="Catalogo.html">Catalogo</a></button>
-            <button><a href="Reseña.html">Reseña histórica</a></button>
-            <button><a href="#">Compras</a></button>
-            <button><a href="#">Contactenos</a></button>
-        </nav>
-</header>
 <body>
-    
+
+    <header>
+        <nav class="navbar">
+            <img src="../Imagenes/logo.PNG" alt="Logo Sparkle Studio" class="logo">
+            <ul class="nav-links">
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="Catalogo.html">Catálogo</a></li>
+                <li><a href="Reseña.html">Reseña histórica</a></li>
+                <li><a href="#">Compras</a></li>
+                <li><a href="#">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="catalogo">
+            <h2>Nuestros Productos</h2>
+            <div class="productos-grid">
+                <div class="card">
+                    <img src="../Imagenes/prA.avif" alt="Joya 1">
+                    <h3>Anillo de Plata</h3>
+                    <p>$120.00</p>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/51o4mQ+FJXL._AC_SY580_.jpg" alt="Joya 2">
+                    <h3>Pulsera Elegante</h3>
+                    <p>$90.00</p>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/aretes-zelda.jpg" alt="Joya 3">
+                    <h3>Aretes de Perlas</h3>
+                    <p>$150.00</p>
+                </div>
+                <div class="card">
+                    <img src="../Imagenes/D_NQ_NP_958372-MLM43512137082_092020-O.webp" alt="Joya 4">
+                    <h3>Reloj de Lujo</h3>
+                    <p>$300.00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Sparkle Studio - Todos los derechos reservados.</p>
+        <p>Desarrollado por: <strong>Joseph jeremy gonzalez hernandez</strong> - Carnet: 20250623</p>
+    </footer>
+
 </body>
 </html>
